@@ -5,7 +5,7 @@ using System.Text;
 
 namespace RtfPipe
 {
-  internal class RtfStreamReader : TextReader, IRtfReader
+  public class RtfStreamReader : TextReader, IRtfReader
   {
     private enum State
     {
